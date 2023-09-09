@@ -1,2 +1,2 @@
 # Todo-mvc
-Just a todo app that follows mvc pattern in SwiftUI
+Just a todo app that follows MVVM pattern in SwiftUI
