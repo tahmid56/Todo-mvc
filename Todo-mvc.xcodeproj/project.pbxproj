@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		08D141562AAC333D00FE66B3 /* Todo_mvcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D141552AAC333D00FE66B3 /* Todo_mvcApp.swift */; };
-		08D141582AAC333D00FE66B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D141572AAC333D00FE66B3 /* ContentView.swift */; };
 		08D1415A2AAC333E00FE66B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D141592AAC333E00FE66B3 /* Assets.xcassets */; };
 		08D1415D2AAC333E00FE66B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D1415C2AAC333E00FE66B3 /* Preview Assets.xcassets */; };
+		08D141652AAC36A800FE66B3 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D141642AAC36A800FE66B3 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08D141522AAC333D00FE66B3 /* Todo-mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-mvc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D141552AAC333D00FE66B3 /* Todo_mvcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_mvcApp.swift; sourceTree = "<group>"; };
-		08D141572AAC333D00FE66B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08D141592AAC333E00FE66B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D1415C2AAC333E00FE66B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08D141642AAC36A800FE66B3 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 		08D141542AAC333D00FE66B3 /* Todo-mvc */ = {
 			isa = PBXGroup;
 			children = (
+				08D141632AAC368900FE66B3 /* Views */,
 				08D141552AAC333D00FE66B3 /* Todo_mvcApp.swift */,
-				08D141572AAC333D00FE66B3 /* ContentView.swift */,
 				08D141592AAC333E00FE66B3 /* Assets.xcassets */,
 				08D1415B2AAC333E00FE66B3 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				08D1415C2AAC333E00FE66B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08D141632AAC368900FE66B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08D141642AAC36A800FE66B3 /* ListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08D141582AAC333D00FE66B3 /* ContentView.swift in Sources */,
+				08D141652AAC36A800FE66B3 /* ListView.swift in Sources */,
 				08D141562AAC333D00FE66B3 /* Todo_mvcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

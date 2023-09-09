@@ -11,7 +11,10 @@ import SwiftUI
 struct Todo_mvcApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ListView()
+            }
+            
         }
     }
 }
