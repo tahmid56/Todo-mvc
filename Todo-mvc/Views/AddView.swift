@@ -11,6 +11,8 @@ struct AddView: View {
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var listViewModel: ListViewModel
     @State var textFieldText: String = ""
+    @State var alertTitle: String = ""
+    @State var showAlert: Bool = false;
     var body: some View {
         ScrollView{
             VStack {
@@ -33,11 +35,32 @@ struct AddView: View {
             }.padding(14)
                 
         }.navigationTitle("Add an Item 🖊️")
+            .alert(Text(alertTitle), isPresented: $showAlert) {
+                Button("cancel") {
+                    
+                }
+                
+            }
     }
     
     func saveBtnPressed(){
-        listViewModel.addItem(title: textFieldText)
-        dismiss()
+        if textIsAppropriate() {
+            listViewModel.addItem(title: textFieldText)
+            dismiss()
+        }
+    }
+    
+    func textIsAppropriate() -> Bool {
+        if textFieldText.count < 3 {
+            alertTitle = "Your new todo item must be atleast 3 characters"
+            showAlert.toggle()
+            return false
+        }
+        return true
+    }
+    
+    func getAlert() -> Alert{
+        return Alert(title: Text(alertTitle))
     }
 }
 
