@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A02DFB2AC16EE4000E3DD3 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A02DFA2AC16EE4000E3DD3 /* NoItemsView.swift */; };
 		08D141562AAC333D00FE66B3 /* Todo_mvcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D141552AAC333D00FE66B3 /* Todo_mvcApp.swift */; };
 		08D1415A2AAC333E00FE66B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D141592AAC333E00FE66B3 /* Assets.xcassets */; };
 		08D1415D2AAC333E00FE66B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D1415C2AAC333E00FE66B3 /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A02DFA2AC16EE4000E3DD3 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		08D141522AAC333D00FE66B3 /* Todo-mvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-mvc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D141552AAC333D00FE66B3 /* Todo_mvcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_mvcApp.swift; sourceTree = "<group>"; };
 		08D141592AAC333E00FE66B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				08D141642AAC36A800FE66B3 /* ListView.swift */,
 				08D141662AAC37ED00FE66B3 /* ListRowView.swift */,
 				08D141682AAC3B5C00FE66B3 /* AddView.swift */,
+				08A02DFA2AC16EE4000E3DD3 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				08D1416F2AADA98700FE66B3 /* ListViewModel.swift in Sources */,
 				08D141652AAC36A800FE66B3 /* ListView.swift in Sources */,
 				08D141562AAC333D00FE66B3 /* Todo_mvcApp.swift in Sources */,
+				08A02DFB2AC16EE4000E3DD3 /* NoItemsView.swift in Sources */,
 				08D141672AAC37ED00FE66B3 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
